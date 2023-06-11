@@ -1,8 +1,6 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
-// const request = require("request");
-// const https = require("https");
 
 const port = process.env.PORT || 3000;
 
@@ -50,9 +48,3 @@ app.post("/failure", function(req, res){
 })
 
 app.listen(port, function(){console.log("Server is running at "+port);})
-
-// API key 
-// da9639e9daf799b990c7e7ca7793b144-us21
-
-// List key 
-// 464e2c3390
